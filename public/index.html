@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ZaneRPG</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="transcript"></div>
+    <div id="controls">
+      <input id="commandInput" type="text" placeholder="Enter command..." autofocus>
+      <button id="submitBtn">Go</button>
+    </div>
+    <div id="quickBtns">
+      <button data-cmd="n">N</button>
+      <button data-cmd="s">S</button>
+      <button data-cmd="e">E</button>
+      <button data-cmd="w">W</button>
+      <button data-cmd="look">Look</button>
+      <button data-cmd="inv">Inventory</button>
+      <button data-cmd="stats">Stats</button>
+      <button data-cmd="save">Save</button>
+      <button data-cmd="load">Load</button>
+    </div>
+  </div>
+  <script src="../js/game.js"></script>
+  <script src="../js/systems.js"></script>
+  <script src="../js/parser.js"></script>
+  <script src="../js/ui.js"></script>
+</body>
+</html>
