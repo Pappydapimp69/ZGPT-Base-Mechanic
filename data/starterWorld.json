@@ -1,0 +1,16 @@
+{
+  "rooms": {
+    "cell": {
+      "desc": "A damp stone cell with a locked door to the north.",
+      "exits": { "n": "hall" }
+    },
+    "hall": {
+      "desc": "A narrow hallway lined with moss. Exits lead south and east.",
+      "exits": { "s": "cell", "e": "yard" }
+    },
+    "yard": {
+      "desc": "An open yard with tall grass. The sky stretches above.",
+      "exits": { "w": "hall" }
+    }
+  }
+}
