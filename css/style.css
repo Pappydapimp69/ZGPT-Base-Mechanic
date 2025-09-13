@@ -1,0 +1,54 @@
+body {
+  font-family: monospace;
+  background: #111;
+  color: #eee;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#app {
+  width: 600px;
+  padding: 1rem;
+}
+
+#transcript {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #555;
+  padding: 1rem;
+  background: #000;
+  margin-bottom: 1rem;
+}
+
+#controls {
+  display: flex;
+}
+
+#commandInput {
+  flex: 1;
+  padding: 0.5rem;
+  background: #222;
+  color: #eee;
+  border: 1px solid #444;
+}
+
+#submitBtn {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background: #444;
+  color: #eee;
+  border: none;
+}
+
+#quickBtns {
+  margin-top: 0.5rem;
+}
+
+#quickBtns button {
+  margin: 0.2rem;
+  background: #333;
+  color: #eee;
+  border: 1px solid #555;
+  padding: 0.3rem 0.6rem;
+}
